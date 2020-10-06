@@ -1,0 +1,16 @@
+.header {
+  background: #383838;
+  &__title {
+    color: #fefefe;
+    text-align: center;
+  }
+  &__text {
+    color: #828282;
+    text-align: center;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

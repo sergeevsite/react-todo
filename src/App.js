@@ -1,16 +1,16 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header/header';
+import TodoList from './containers/todo-list.container';
+import Auth from './containers/auth.container';
 
 function App() {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <Button variant="success">Success</Button>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Header />
+      <Auth />
+      <TodoList />
+    </>
   );
 }
 
