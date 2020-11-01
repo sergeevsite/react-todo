@@ -23,8 +23,9 @@ const Header = () => {
           </Link>
         </ButtonGroup>
       </Container>
-
+      
     </Jumbotron>
+    
   )
 }
 
